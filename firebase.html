@@ -27,7 +27,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Firebase JavaScript Link -->
-    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
   
 	<!-- Added Moment JS -->
 	<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
@@ -102,17 +102,18 @@
 	
 <script>
 
+
 // Initialize Firebase and set Credentials
 var config = {
-	apiKey: "AIzaSyACnaljb1jAtPYBQiNBUBEnrefsBgt_xLc",
-	authDomain: "new-test-1-3aae1.firebaseapp.com",
-	databaseURL: "https://new-test-1-3aae1.firebaseio.com",
-	projectId: "new-test-1-3aae1",
-	storageBucket: "new-test-1-3aae1.appspot.com",
-	messagingSenderId: "362706371575"
-};
+    apiKey: "AIzaSyB8Oow23kHhBKiJmPWWrvcW1OgUQoKl_lA",
+    authDomain: "expresscut-6aae5.firebaseapp.com",
+    databaseURL: "https://expresscut-6aae5.firebaseio.com",
+    projectId: "expresscut-6aae5",
+    storageBucket: "expresscut-6aae5.appspot.com",
+    messagingSenderId: "594040191497"
+  };
+  firebase.initializeApp(config);
 
-firebase.initializeApp(config);
 
 // Creating Database Reference
 var databaseReference = firebase.database();
